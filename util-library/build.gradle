@@ -45,10 +45,10 @@ dependencies {
 
     //dataStore
     def datastore_version = "1.0.0"
-    implementation "androidx.datastore:datastore-preferences:$datastore_version"
+    api "androidx.datastore:datastore-preferences:$datastore_version"
 
     //datetime
-    implementation 'org.jetbrains.kotlinx:kotlinx-datetime:0.3.2'
+    api 'org.jetbrains.kotlinx:kotlinx-datetime:0.3.2'
 }
 
 afterEvaluate {
